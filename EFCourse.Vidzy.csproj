@@ -136,6 +136,10 @@
     <Compile Include="Migrations\202005211800113_ChangeVideoGenreRelationshipForOneToOne.designer.cs">
       <DependentUpon>202005211800113_ChangeVideoGenreRelationshipForOneToOne.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005211928162_AddClasificationToVideoTable.cs" />
+    <Compile Include="Migrations\202005211928162_AddClasificationToVideoTable.designer.cs">
+      <DependentUpon>202005211928162_AddClasificationToVideoTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -155,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005211800113_ChangeVideoGenreRelationshipForOneToOne.resx">
       <DependentUpon>202005211800113_ChangeVideoGenreRelationshipForOneToOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005211928162_AddClasificationToVideoTable.resx">
+      <DependentUpon>202005211928162_AddClasificationToVideoTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
