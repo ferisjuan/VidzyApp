@@ -7,9 +7,9 @@
     {
         public override void Up()
         {
-            Sql("INSERT INTO Genres (Genre) ('Action')");
-            Sql("INSERT INTO Genres (Genre) ('Drama')");
-            Sql("INSERT INTO Genres (Genre) ('Fiction')");
+            Sql("INSERT INTO Genres (Name) VALUES ('Action')");
+            Sql("INSERT INTO Genres (Name) VALUES ('Drama')");
+            Sql("INSERT INTO Genres (Name) VALUES ('Fiction')");
         }
         
         public override void Down()
