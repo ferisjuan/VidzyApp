@@ -128,6 +128,10 @@
     <Compile Include="Migrations\202005211721536_InitialModel.designer.cs">
       <DependentUpon>202005211721536_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005211736046_PrePopulateDataIntoGenresTable.cs" />
+    <Compile Include="Migrations\202005211736046_PrePopulateDataIntoGenresTable.designer.cs">
+      <DependentUpon>202005211736046_PrePopulateDataIntoGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -141,6 +145,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202005211721536_InitialModel.resx">
       <DependentUpon>202005211721536_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005211736046_PrePopulateDataIntoGenresTable.resx">
+      <DependentUpon>202005211736046_PrePopulateDataIntoGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
