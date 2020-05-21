@@ -132,6 +132,10 @@
     <Compile Include="Migrations\202005211736046_PrePopulateDataIntoGenresTable.designer.cs">
       <DependentUpon>202005211736046_PrePopulateDataIntoGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005211800113_ChangeVideoGenreRelationshipForOneToOne.cs" />
+    <Compile Include="Migrations\202005211800113_ChangeVideoGenreRelationshipForOneToOne.designer.cs">
+      <DependentUpon>202005211800113_ChangeVideoGenreRelationshipForOneToOne.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -148,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005211736046_PrePopulateDataIntoGenresTable.resx">
       <DependentUpon>202005211736046_PrePopulateDataIntoGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005211800113_ChangeVideoGenreRelationshipForOneToOne.resx">
+      <DependentUpon>202005211800113_ChangeVideoGenreRelationshipForOneToOne.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
