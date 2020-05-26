@@ -123,6 +123,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityConfigurations\GenreConfiguration.cs" />
+    <Compile Include="EntityConfigurations\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\202005211721536_InitialModel.cs" />
     <Compile Include="Migrations\202005211721536_InitialModel.designer.cs">
@@ -139,6 +141,10 @@
     <Compile Include="Migrations\202005211928162_AddClasificationToVideoTable.cs" />
     <Compile Include="Migrations\202005211928162_AddClasificationToVideoTable.designer.cs">
       <DependentUpon>202005211928162_AddClasificationToVideoTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005261645336_AddedConstraintsToVideoAndGenreTables.cs" />
+    <Compile Include="Migrations\202005261645336_AddedConstraintsToVideoAndGenreTables.designer.cs">
+      <DependentUpon>202005261645336_AddedConstraintsToVideoAndGenreTables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005211928162_AddClasificationToVideoTable.resx">
       <DependentUpon>202005211928162_AddClasificationToVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005261645336_AddedConstraintsToVideoAndGenreTables.resx">
+      <DependentUpon>202005261645336_AddedConstraintsToVideoAndGenreTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
